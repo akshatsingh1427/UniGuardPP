@@ -26,39 +26,39 @@ UniGuard++ is a UNIX-based system audit and monitoring project developed using C
 
 ## Features
 
-- Automated system audits
-- CPU, memory, disk, process, and network monitoring
-- C++ audit engine using fork and wait
-- Parent and child process management
-- Real-time terminal dashboard
-- Timestamped logging
-- Historical data storage using CSV files
-- Report and graph generation
-- Configurable monitoring thresholds
-- Continuous monitoring mode
++  Automated system audits
++ CPU, memory, disk, process, and network monitoring
++ C++ audit engine using fork and wait
++ Parent and child process management
++ Real-time terminal dashboard
++ Timestamped logging
++ Historical data storage using CSV files
++ Report and graph generation
++ Configurable monitoring thresholds
++ Continuous monitoring mode
 
 ---
 
 ## UNIX Concepts Used
 
-- Process creation and management
-- System calls
-- Shell scripting and automation
-- Signal handling
-- File and directory management
-- Command-line utilities
-- Scheduling using loops
++ Process creation and management
++ System calls
++ Shell scripting and automation
++ Signal handling
++ File and directory management
++ Command-line utilities
++ Scheduling using loops
 
 ---
 
 ## Technologies Used
 
-- C++
-- Bash scripting
-- GNU Make
-- Linux command-line tools
-- Gnuplot
-- Git and GitHub
++ C++
++ Bash scripting
++ GNU Make
++ Linux command-line tools
++ Gnuplot
++ Git and GitHub
 
 ---
 
