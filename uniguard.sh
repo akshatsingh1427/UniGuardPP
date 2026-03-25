@@ -198,9 +198,7 @@ plot "$DATA_DIR/mem_history.csv" using 1:2 with lines linewidth 2 title "Memory 
 set title "Disk Usage History"
 set xlabel "Time"
 set ylabel "Disk Usage %"
-set yrange [0:100]
-set grid
-plot "$DATA_DIR/disk_history.csv" using 1:2 with lines linewidth 2 title "Disk %"
+
 
 set title "Current System Status"
 set xlabel "Metric"
