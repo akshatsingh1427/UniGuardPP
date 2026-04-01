@@ -14,7 +14,7 @@ BOLD='\033[1m'
 get_accurate_cpu_usage() {
     local cpu_usage=$(top -bn1 | grep "Cpu(s)" | awk '{print $2 + $4}' | cut -d'.' -f1)
     if [ -z "$cpu_usage" ] || [ "$cpu_usage" -eq 0 ]; then
-        cpu_usage=$(grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage}' | cut -d'.' -f1)
+        cpu_usage=$(grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage}' | cut -d'.' -f1
     fi
     if [ -z "$cpu_usage" ] || [ "$cpu_usage" -gt 100 ]; then
         cpu_usage=0
